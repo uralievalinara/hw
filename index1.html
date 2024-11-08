@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Form Validation</title>
+</head>
+<body>
+<h1>Homework Navigation</h1>
+    <ul>
+        <li><a href="index1.html">Task 1: Form with Validation</a></li>
+        <li><a href="C:\hw_lin\tasks\task2">Task 2: Number Calculator</a></li>
+        <li><a href="index3.html">Task 3: (Description)</a></li>
+     
+    </ul>
+    <div class="form-container">
+        <form id="registrationForm">
+            <div class="form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <div class="error-message" id="nameError"></div>
+            </div>
+            <div class="form">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <div class="error-message" id="emailError"></div>
+            </div>
+            <div class="form">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <div class="error-message" id="passwordError"></div>
+            </div>
+            <button type="submit" onclick="validateForm()">Submit</button>
+        </form>
+    </div>
+
+    <script src="index1.js"></script>
+</body>
+</html>
